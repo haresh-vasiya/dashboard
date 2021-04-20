@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+/* navbar style */
+.menu{
+    height: 100vh;
+    width: 10vw;
+    background: #f5f5f5d3;
+    padding-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.menu p:first-child{
+    margin-bottom: 120px; 
+}
+
+.menu p{
+    padding: 8px 8px;
+    border:none;
+    outline: none;
+    box-shadow: 2px 2px 5px #cecece;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fc4e4e;
+    cursor: pointer;
+}
+
+.menu span{
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: grey;
+}
+
+.menu span:hover{
+    cursor: pointer;
+    padding: 5px;
+    background: #ffff;
+    border-radius: 30px;
+    box-shadow: -2px -2px 4px #cecece;
+    margin-bottom: 40px; 
+}
+
+/* dashbar */
+
+.dashboard{
+    background: #ffff;
+    padding: 50px 25px 25px 20px;
+    height: 100vh;
+    width: 60vw;
+}
+
+.dashboard h1{
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+}
+
+/* section one in dashboard  */
+
+.one{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.first{
+    padding: 10px;
+    background: #5a15c9c4;
+    border-radius: 5px;
+    flex: 3;    
+    margin-right: 20px;
+}
+
+.first p{
+    text-transform: uppercase;
+    color: #c5c5c5;
+    font-size: 15px;
+    margin-bottom: 8px;
+
+}
+
+.first p span{
+    color: #ffff;
+}
+
+.first h2{
+    color: #ffff;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+p.hindi{
+    text-transform: capitalize;
+}
+
+p.start{
+    color: #ffff;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.two , .three {
+    flex: 1;    
+    border-radius: 5px;
+    padding: 10px 15px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column;
+}
+
+.two{
+    background: #ffa4a496;
+    color: #df6262;
+    margin-right: 20px;
+}
+
+.three{
+    background: #b88bffa2;
+    color: #7135d3;
+
+}
+
+.two span, .three span{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.two h3, .three h3{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.two p, .three p{
+    font-size: 15px;
+}
+
+/* section two in dashboard */
+
+.second{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.w-border{
+    background-color: #ffff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #4646468f;
+    padding: 10px 20px 10px 20px;
+    flex: 2;
+    
+}
+
+.w-border .groupinfo{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+.w-border h3 p{
+    font-size: 25px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+}
+
+.w-border .bell{
+    color: black;
+}
+
+.group{
+    color:#c5c5c5;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.homework-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: #ffff;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    padding: 15px;
+    background:#df6262;
+    border-radius: 10px;
+}
+
+.homework-title{
+    font-size: 20px;
+    color: #ffff;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    
+}
+
+.homework-info p[class="online-student"] {
+    margin-top: 15px;
+}
+
+/* todya session  */
+.todayse{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#last-p{
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: #c5c5c5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* section without border  */
+.o-border{
+    padding: 20px 30px;
+    flex: 1;
+}
+
+.o-border img{
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 3px grey;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.o-border .headding{
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* third section start */
+.third{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.third .grammer, .third .dictionary{
+    padding:  20px 15px ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2px gray;
+    border-radius: 10px;
+    flex: 1;
+} 
+
+.grammer {
+    margin-right: 15px;
+}
+
+.grammer .icon , .dictionary .icon{
+    cursor: pointer;
+    padding: 5px;
+    background: #ffff;
+    border-radius: 30px;
+    box-shadow: -2px -2px 4px #cecece;    
+}
+
+.grammer .material-icons{
+    color: #7135d3;
+}
+
+.dictionary .material-icons{
+    
+    color: #df6262;
+}
+
+.grammer .last , .dictionary .last{
+    margin-left: auto;
+    color: black;
+}
+
+.grammer .gr-title , .dictionary .di-title{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+}
+
+.gr-title p , .di-title p{
+     display: block;
+     font-size: 15px;
+     margin-top: 10px;
+}
+
+
+/* profile section */
+.profile{
+    background: #f5f5f5d3;
+    height: 100vh;
+    width: 30vw;
+    padding: 20px 20px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column;
+}
+    
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+
+.profile .name{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+}
+
+.profile h4{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+}
+
+/* profile below section  */
+
+.offer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2px grey;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.offer-title span{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: inline;
+}
+
+.offer-title p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.offer-icon {
+    padding: 5px;
+    background: #ffff;
+    border: none;
+    outline: none;
+    box-shadow:  2px 2px 2px grey;
+    border-radius: 5px;
+    color: #df6262;
+}
+
+.course{
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+/* course summary  */
+
+.ga , .di , .reading{
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2px grey;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.g-icon , .d-icon , .r-icon{
+    padding: 10px;   
+    border: none;
+    outline: none;
+    box-shadow:  2px 2px 2px grey;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+
+.ga .g-per, .di .d-per, .reading .r-per{
+    padding: 5px;   
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.d-per{
+    color:#df6262;
+}
+
+p.d-icon{
+    background: #df6262;
+}
+
+.g-per{
+    color:#7135d3;
+}
+
+p.g-icon{
+    background: #7135d3;
+}
+
+.r-per{
+    color: #fc4e4e;
+}
+
+p.r-icon{
+    background: #fc4e4e;
+}
+
+.g-title, .d-title, .r-title{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    display: inline;
+    margin-left: 10px;
+}  
+
+.g-title p, .d-title p, .r-title p{
+    display: block;
+     font-size: 15px;
+     margin-top: 10px;
+     color: grey;
+}
